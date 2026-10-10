@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # a fixed build machine, so GitHub updates don't change the build
     steps:
       - name: Get the project
         uses: actions/checkout@v4
